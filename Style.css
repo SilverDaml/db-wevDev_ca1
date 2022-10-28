@@ -28,5 +28,23 @@ td, th {
   /*Aplying zebra striping */
 
   tbody tr:nth-child(odd) {
-    background: rgb(216, 231, 183);
+    background: rgb(212, 219, 228);
+  }
+
+  tbody tr:hover {
+    background: yellow;
+  }
+
+  .center{
+    margin: auto;
+  }
+  .table-name{
+    font-size: 24px;
+    background-color: rgb(100, 144, 207);
+    text-align: center;
+  }
+
+  thead{
+    background-color: black;
+    color: white;
   }
